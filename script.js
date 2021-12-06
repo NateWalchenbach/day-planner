@@ -24,7 +24,7 @@ getMessage();
 
 const time = function () {
   document.getElementById("currentDay").textContent = moment().format(
-    "MMMM Do YYYY, h:mm:ss a"
+    "MMMM Do YYYY, h:mm a"
   );
 };
 setInterval(time, 1000);
