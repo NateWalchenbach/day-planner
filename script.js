@@ -32,7 +32,7 @@ setInterval(time, 1000);
 //Display current color
 function hourformat() {
   var currentHour = moment().hours();
-  $(".time-block").each(function () {
+  $(".description").each(function () {
     var rowHour = parseInt($(this).attr("id"));
     if (currentHour > rowHour) {
       $(this).addClass("past");
